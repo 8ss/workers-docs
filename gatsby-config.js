@@ -5,6 +5,7 @@ module.exports = {
     title: `Cloudflare Workers`,
     description: `Use Cloudflare’s APIs and edge network to build secure, ultra-fast applications.`,
     author: `@cloudflaredev`,
+    siteUrl: `https://developers.cloudflare.com/`,
   },
   assetPrefix: `/workers`,
   // pathPrefix: `/workers`,
@@ -19,6 +20,12 @@ module.exports = {
         name: `mdx-pages`,
         path: `${__dirname}/src/content`,
         ignore: [`**/CONTRIBUTING*`, '/styles/**'],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/archive/*`],
       },
     },
     {
