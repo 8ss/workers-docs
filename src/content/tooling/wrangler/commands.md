@@ -12,6 +12,7 @@ weight: 2
   * [Registered domain](#publishing-to-your-own-domain)
   * [Multiple domains](#publishing-the-same-code-to-multiple-places)
 - [👂 `dev`](#dev-alpha-))
+- [🦚 `tail`](#tail-))
 - [🔬 `preview`](#preview)
   * [Making it work with WSL](#making-preview-work-with-wsl2)
 - [🗂️ `kv`](#kv)
