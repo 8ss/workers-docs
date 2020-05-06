@@ -146,7 +146,7 @@ If you would like to be able to publish your code to multiple places, please see
 
 #### Usage
 
-  `wrangler tail` will register a tailing session for your Worker, and start a server on `localhost` with a [tunnel](https://developers.cloudflare.com/argo-tunnel/quickstart/) that listens for incoming log requests from your Worker. After starting `wrangler tail` in a directory with a project, you will receive a live feed of console and exception logs for each request your Worker receives.
+  `wrangler tail` will register a tailing session for your Worker, and start a server on `localhost` with a tunnel that listens for incoming log requests from your Worker. After starting `wrangler tail` in a directory with a project, you will receive a live feed of console and exception logs for each request your Worker receives.
 
   Like all Wrangler commands, you should run `wrangler tail` from your Worker's root directory. You can configure the port for your local log server by passing the `--port` flag. An additional port is used for serving metrics information for the tunnel; this can be configured by passing the `--metrics-port` flag.
 
