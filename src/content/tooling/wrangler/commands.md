@@ -152,7 +152,7 @@ If you would like to be able to publish your code to multiple places, please see
   
    ## Optional Flags
    * `--port PORT`: the port for your local log server 
-   *  `--metrics-port PORT`: the port for serving metrics information about the tunnel. 
+   *  `--metrics-port PORT`: the port for serving [metrics information](https://developers.cloudflare.com/argo-tunnel/reference/arguments/#metrics) about the tunnel.
 
 ### preview
 
