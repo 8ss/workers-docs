@@ -144,7 +144,7 @@ If you would like to be able to publish your code to multiple places, please see
 
 
   ```bash
-  wrangler tail [--port] [--metrics-port]
+  wrangler tail [--port  PORT] [--metrics-port PORT]
   ```
 
 
