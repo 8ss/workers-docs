@@ -1,9 +1,6 @@
 name: Deploy staging site
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - staging
